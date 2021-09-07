@@ -32,11 +32,11 @@ LVM, modüler disk veri kümesi veya kümeleri oluşturulmasını, böylelikle d
 ### 2.1 - Sistemdeki yüklü modül sayısı
 <br>
 
-> <br>python3 PackageManager <'package-name'> <-c>
+> <br>package-name : Bilgi elde edilecek paketin adı.<br>
+        -c           : Sistemde yüklü paket sayısını yazdırmak için parametre
 <br><br>
 
-        package-name : Bilgi elde edilecek paketin adı.
-        -c           : Sistemde yüklü paket sayısını yazdırmak için parametre
+        python3 PackageManager <'package-name'> <-c>
 
 <br>
 
@@ -50,10 +50,10 @@ LVM, modüler disk veri kümesi veya kümeleri oluşturulmasını, böylelikle d
 ### 2.2 - Paket durum kontrolü
 <br>
 
-> <br>python3 PackageManager <'package-name'>
+> <br>package-name : Bilgi elde edilecek paketin adı.
 <br><br>
 
-    package-name : Bilgi elde edilecek paketin adı.
+    python3 PackageManager <'package-name'>
 
 *   Bu komut ile aramak istediğiniz komutun sistemde yüklü olup olmadığını kontrol edebilirsiniz.<br><br>
 
